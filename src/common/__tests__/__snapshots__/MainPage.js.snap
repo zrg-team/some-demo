@@ -1,0 +1,492 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Root [Case] Render without crashing 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Component)>
+    <Memo()
+      dispatch={[Function]}
+      theme="light"
+    >
+      <ThemeProvider
+        theme={
+          Object {
+            "backgroundEffect": "",
+            "border": "#e3dfdf",
+            "highlightText": "#FFFFFF",
+            "primaryBackground": "#FFFFFF",
+            "primaryBackground100": "#f0f0f0",
+            "text": "#484848",
+          }
+        }
+      >
+        <Memo(GlobalStyleComponent) />
+        <HomePage>
+          <styled.div>
+            <div
+              className="sc-AxjAm eBYRao"
+            >
+              <Connect(Header)>
+                <Header
+                  setTheme={[Function]}
+                  theme="light"
+                >
+                  <styled.header>
+                    <header
+                      className="sc-AxirZ gVONwd"
+                    >
+                      <div
+                        className="header-inner"
+                      >
+                        <img
+                          alt="header-image"
+                          className="header-image"
+                          src="airbnb.svg"
+                        />
+                        <div
+                          className="header-tab"
+                        >
+                          <div
+                            className="theme-switch"
+                          >
+                            <ReactSwitch
+                              activeBoxShadow="0 0 2px 3px #3bf"
+                              boxShadow={null}
+                              checked={false}
+                              checkedIcon={
+                                <img
+                                  alt="nigh-icon"
+                                  className="theme-icon"
+                                  src="night-icon.svg"
+                                />
+                              }
+                              disabled={false}
+                              height={28}
+                              offColor="#555555"
+                              offHandleColor="#fff"
+                              onChange={[Function]}
+                              onColor="#555555"
+                              onHandleColor="#fff"
+                              uncheckedIcon={
+                                <img
+                                  alt="sunny-icon"
+                                  className="theme-icon"
+                                  src="sunny-icon.svg"
+                                />
+                              }
+                              width={56}
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "MozTransition": "opacity 0.25s",
+                                    "MozUserSelect": "none",
+                                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                                    "WebkitTransition": "opacity 0.25s",
+                                    "WebkitUserSelect": "none",
+                                    "borderRadius": 14,
+                                    "direction": "ltr",
+                                    "display": "inline-block",
+                                    "msUserSelect": "none",
+                                    "opacity": 1,
+                                    "position": "relative",
+                                    "textAlign": "left",
+                                    "touchAction": "none",
+                                    "transition": "opacity 0.25s",
+                                    "userSelect": "none",
+                                  }
+                                }
+                              >
+                                <div
+                                  className="react-switch-bg"
+                                  onClick={[Function]}
+                                  onMouseDown={[Function]}
+                                  style={
+                                    Object {
+                                      "MozTransition": "background 0.25s",
+                                      "WebkitTransition": "background 0.25s",
+                                      "background": "#555555",
+                                      "borderRadius": 14,
+                                      "cursor": "pointer",
+                                      "height": 28,
+                                      "margin": 0,
+                                      "position": "relative",
+                                      "transition": "background 0.25s",
+                                      "width": 56,
+                                    }
+                                  }
+                                >
+                                  <div
+                                    style={
+                                      Object {
+                                        "MozTransition": "opacity 0.25s",
+                                        "WebkitTransition": "opacity 0.25s",
+                                        "height": 28,
+                                        "opacity": 0,
+                                        "pointerEvents": "none",
+                                        "position": "relative",
+                                        "transition": "opacity 0.25s",
+                                        "width": 30,
+                                      }
+                                    }
+                                  >
+                                    <img
+                                      alt="nigh-icon"
+                                      className="theme-icon"
+                                      src="night-icon.svg"
+                                    />
+                                  </div>
+                                  <div
+                                    style={
+                                      Object {
+                                        "MozTransition": "opacity 0.25s",
+                                        "WebkitTransition": "opacity 0.25s",
+                                        "height": 28,
+                                        "opacity": 1,
+                                        "pointerEvents": "none",
+                                        "position": "absolute",
+                                        "right": 0,
+                                        "top": 0,
+                                        "transition": "opacity 0.25s",
+                                        "width": 30,
+                                      }
+                                    }
+                                  >
+                                    <img
+                                      alt="sunny-icon"
+                                      className="theme-icon"
+                                      src="sunny-icon.svg"
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  className="react-switch-handle"
+                                  onClick={[Function]}
+                                  onMouseDown={[Function]}
+                                  onTouchCancel={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  style={
+                                    Object {
+                                      "MozTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                                      "WebkitTransition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                                      "background": "#ffffff",
+                                      "border": 0,
+                                      "borderRadius": "50%",
+                                      "boxShadow": null,
+                                      "cursor": "pointer",
+                                      "display": "inline-block",
+                                      "height": 26,
+                                      "outline": 0,
+                                      "position": "absolute",
+                                      "top": 1,
+                                      "transform": "translateX(1px)",
+                                      "transition": "background-color 0.25s, transform 0.25s, box-shadow 0.15s",
+                                      "width": 26,
+                                    }
+                                  }
+                                />
+                                <input
+                                  checked={false}
+                                  disabled={false}
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyUp={[Function]}
+                                  role="switch"
+                                  style={
+                                    Object {
+                                      "border": 0,
+                                      "clip": "rect(0 0 0 0)",
+                                      "height": 1,
+                                      "margin": -1,
+                                      "overflow": "hidden",
+                                      "padding": 0,
+                                      "position": "absolute",
+                                      "width": 1,
+                                    }
+                                  }
+                                  type="checkbox"
+                                />
+                              </div>
+                            </ReactSwitch>
+                          </div>
+                          <nav
+                            className="topnav"
+                          >
+                            <a
+                              className="header-nav-item"
+                              href="https://www.linkedin.com/in/d%C6%B0%C6%A1ng-t%E1%BA%A5n-h%C3%B9ng-633132131/"
+                              key="https://www.linkedin.com/in/d%C6%B0%C6%A1ng-t%E1%BA%A5n-h%C3%B9ng-633132131/"
+                              title="Linkedin"
+                            >
+                              Linkedin
+                            </a>
+                            <a
+                              className="header-nav-item"
+                              href="https://github.com/zrg-team"
+                              key="https://github.com/zrg-team"
+                              title="Github"
+                            >
+                              Github
+                            </a>
+                            <a
+                              className="header-nav-item"
+                              href="https://github.com/zrg-team/some-demo"
+                              key="https://github.com/zrg-team/some-demo"
+                              title="Source Code"
+                            >
+                              Source Code
+                            </a>
+                            <a
+                              className="header-nav-item"
+                              href="https://zrg-team.github.io/store/"
+                              key="https://zrg-team.github.io/store/"
+                              title="Profile"
+                            >
+                              Profile
+                            </a>
+                            <a
+                              className="icon"
+                              onClick={[Function]}
+                            >
+                              <FontAwesomeIcon
+                                border={false}
+                                className="menu-icon"
+                                fixedWidth={false}
+                                flip={null}
+                                icon={
+                                  Object {
+                                    "icon": Array [
+                                      448,
+                                      512,
+                                      Array [],
+                                      "f0c9",
+                                      "M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z",
+                                    ],
+                                    "iconName": "bars",
+                                    "prefix": "fas",
+                                  }
+                                }
+                                inverse={false}
+                                listItem={false}
+                                mask={null}
+                                pull={null}
+                                pulse={false}
+                                rotation={null}
+                                size={null}
+                                spin={false}
+                                swapOpacity={false}
+                                symbol={false}
+                                title=""
+                                transform={null}
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  className="svg-inline--fa fa-bars fa-w-14 menu-icon"
+                                  data-icon="bars"
+                                  data-prefix="fas"
+                                  focusable="false"
+                                  role="img"
+                                  style={Object {}}
+                                  viewBox="0 0 448 512"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                                    fill="currentColor"
+                                    style={Object {}}
+                                  />
+                                </svg>
+                              </FontAwesomeIcon>
+                            </a>
+                          </nav>
+                        </div>
+                      </div>
+                    </header>
+                  </styled.header>
+                </Header>
+              </Connect(Header)>
+              <Connect(SearchForm)>
+                <SearchForm
+                  fetchData={[Function]}
+                >
+                  <styled.div>
+                    <div
+                      className="sc-AxiKw dckJTh"
+                    >
+                      <AutoComplete
+                        forceAsync={false}
+                        getAsyncItems={[Function]}
+                        getItemValue={[Function]}
+                        inputIcon={
+                          <div
+                            className="input-icon"
+                          >
+                            <FontAwesomeIcon
+                              border={false}
+                              className="search-icon"
+                              fixedWidth={false}
+                              flip={null}
+                              icon={
+                                Object {
+                                  "icon": Array [
+                                    512,
+                                    512,
+                                    Array [],
+                                    "f002",
+                                    "M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z",
+                                  ],
+                                  "iconName": "search",
+                                  "prefix": "fas",
+                                }
+                              }
+                              inverse={false}
+                              listItem={false}
+                              mask={null}
+                              pull={null}
+                              pulse={false}
+                              rotation={null}
+                              size={null}
+                              spin={false}
+                              swapOpacity={false}
+                              symbol={false}
+                              title=""
+                              transform={null}
+                            />
+                          </div>
+                        }
+                        inputProps={
+                          Object {
+                            "className": "input",
+                          }
+                        }
+                        inputWrapperProps={
+                          Object {
+                            "className": "input-container",
+                          }
+                        }
+                        loadingComponent={
+                          <div
+                            className="loader-container"
+                          >
+                            <div
+                              className="loader"
+                            />
+                          </div>
+                        }
+                        menuWrapperProps={
+                          Object {
+                            "className": "box-menu-wrapper",
+                          }
+                        }
+                        onChange={[Function]}
+                        onSelect={[Function]}
+                        renderItem={[Function]}
+                        selectOnBlur={true}
+                        timeoutTyping={800}
+                        value=""
+                        wrapperProps={
+                          Object {
+                            "className": "box-wrapper",
+                          }
+                        }
+                      >
+                        <div
+                          className="box-wrapper"
+                          style={Object {}}
+                        >
+                          <div
+                            className="input-container"
+                          >
+                            <div
+                              className="input-icon"
+                            >
+                              <FontAwesomeIcon
+                                border={false}
+                                className="search-icon"
+                                fixedWidth={false}
+                                flip={null}
+                                icon={
+                                  Object {
+                                    "icon": Array [
+                                      512,
+                                      512,
+                                      Array [],
+                                      "f002",
+                                      "M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z",
+                                    ],
+                                    "iconName": "search",
+                                    "prefix": "fas",
+                                  }
+                                }
+                                inverse={false}
+                                listItem={false}
+                                mask={null}
+                                pull={null}
+                                pulse={false}
+                                rotation={null}
+                                size={null}
+                                spin={false}
+                                swapOpacity={false}
+                                symbol={false}
+                                title=""
+                                transform={null}
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  className="svg-inline--fa fa-search fa-w-16 search-icon"
+                                  data-icon="search"
+                                  data-prefix="fas"
+                                  focusable="false"
+                                  role="img"
+                                  style={Object {}}
+                                  viewBox="0 0 512 512"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                                    fill="currentColor"
+                                    style={Object {}}
+                                  />
+                                </svg>
+                              </FontAwesomeIcon>
+                            </div>
+                            <input
+                              aria-autocomplete="list"
+                              aria-expanded={false}
+                              autoComplete="off"
+                              className="input"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              onKeyDown={[Function]}
+                              role="combobox"
+                              value=""
+                            />
+                          </div>
+                        </div>
+                      </AutoComplete>
+                    </div>
+                  </styled.div>
+                </SearchForm>
+              </Connect(SearchForm)>
+            </div>
+          </styled.div>
+        </HomePage>
+      </ThemeProvider>
+    </Memo()>
+  </Connect(Component)>
+</Provider>
+`;

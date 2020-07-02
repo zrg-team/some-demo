@@ -129,7 +129,6 @@ function Header ({ theme, setTheme }) {
   }
   const handleToggeMenu = useCallback(() => {
     const element = navRef.current
-    console.log('element', switchRef.current, element.className)
     if (element.className === 'topnav') {
       element.className += ' responsive'
       switchRef.current.className = 'theme-switch-active'

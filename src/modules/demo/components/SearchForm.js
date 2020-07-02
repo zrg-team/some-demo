@@ -31,7 +31,6 @@ const SearchContainer = styled.div`
     color: ${({ theme }) => theme.text};
   }
   .input:focus {
-    border-bottom: 0px solid ${({ theme }) => theme.border};
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     outline: none;
@@ -147,7 +146,6 @@ function SearchForm ({ fetchData, theme }) {
         //   { id: 'a9', label: 'My Tho' }
         // ]}
         // onfilterItem={(item, value) => {
-        //   console.log('value', value)
         //   return item.label.toLowerCase().indexOf(value.toLowerCase()) > -1
         // }}
         getAsyncItems={getAsyncItems}

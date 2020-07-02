@@ -80,53 +80,66 @@ class AutoComplete extends PureComponent {
     this.setState({ highlightedIndex: index })
   }
 
+  async processAsync (value) {
+    const { getAsyncItems, onInputStopped, getAsyncItemsError } = this.props
+    try {
+      if (getAsyncItems) {
+        this.setState({
+          loading: true
+        })
+        this.cachedValue = value
+        const items = await getAsyncItems(value)
+        this.cachedValue = ''
+        if (items && Array.isArray(items) && !this.canceledRequest) {
+          this.cachedResults = items
+          this.setState({
+            loading: false,
+            filtedItems: items
+          })
+        } else if (this.latestProcessValue && this.canceledRequest) {
+          const nextValue = this.latestProcessValue
+          this.canceledRequest = false
+          this.latestProcessValue = ''
+          return this.processAsync(nextValue)
+        }
+      } else {
+        onInputStopped && onInputStopped(value)
+        this.getFilteredItems(value)
+      }
+    } catch (err) {
+      this.cachedValue = ''
+      getAsyncItemsError && getAsyncItemsError(err)
+      this.setState({
+        loading: false
+      })
+    }
+  }
+
   handleChange (event) {
     const {
       onChange,
       forceAsync,
       timeoutTyping = 800,
       onInputStopped,
-      getAsyncItems,
-      getAsyncItemsError
+      getAsyncItems
     } = this.props
     const { loading } = this.state
 
     const value = event.target.value
-    if (this.timeoutTyping) {
-      clearTimeout(this.timeoutTyping)
-    }
     if (getAsyncItems || forceAsync) {
       if (!loading && value && value !== this.cachedValue) {
+        if (this.timeoutTyping) {
+          clearTimeout(this.timeoutTyping)
+        }
         this.timeoutTyping = setTimeout(async () => {
-          try {
-            if (getAsyncItems) {
-              this.setState({
-                loading: true
-              })
-              this.cachedValue = value
-              const items = await getAsyncItems(value)
-              this.cachedValue = ''
-              if (items && Array.isArray(items)) {
-                this.cachedResults = items
-                this.setState({
-                  loading: false,
-                  filtedItems: items
-                })
-              }
-            } else {
-              onInputStopped && onInputStopped(value)
-              this.getFilteredItems(value)
-            }
-          } catch (err) {
-            console.log('err', err)
-            this.cachedValue = ''
-            getAsyncItemsError && getAsyncItemsError(err)
-            this.setState({
-              loading: false
-            })
-          }
+          this.processAsync(value)
         }, timeoutTyping)
-      } else if (!value) {
+      }
+      if (loading) {
+        this.canceledRequest = true
+        this.latestProcessValue = value
+      }
+      if (!value) {
         this.setState({
           loading: false,
           filtedItems: []
@@ -227,6 +240,10 @@ class AutoComplete extends PureComponent {
       top: this.state.menuTop,
       minWidth: this.state.menuWidth
     }
+
+    if (!items || !items.length) {
+      return null
+    }
     return (
       <div
         {...menuWrapperProps}
@@ -239,6 +256,7 @@ class AutoComplete extends PureComponent {
   render () {
     const { wrapperStyle, wrapperProps } = this.props
     const { isShow } = this.state
+
     return (
       <div style={{ ...wrapperStyle }} {...wrapperProps}>
         {this.renderInput()}
@@ -269,6 +287,13 @@ AutoComplete.propTypes = {
   onfilterItem: PropTypes.func,
   sortItems: PropTypes.func,
   limit: PropTypes.number
+}
+
+AutoComplete.defaultProps = {
+  selectOnBlur: true,
+  value: '',
+  timeoutTyping: 800,
+  forceAsync: false
 }
 
 export default AutoComplete

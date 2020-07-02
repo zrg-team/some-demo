@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] AutoComplete [Case] Async Mode -> Should not crash if async fetch error 1`] = `
+<AutoComplete
+  forceAsync={false}
+  getAsyncItems={[Function]}
+  getItemValue={[Function]}
+  items={Array []}
+  menuWrapperProps={
+    Object {
+      "className": "MENU_WRAPPER",
+    }
+  }
+  onChange={[Function]}
+  onfilterItem={[Function]}
+  renderItem={[Function]}
+  selectOnBlur={true}
+  timeoutTyping={800}
+  value=""
+>
+  <div
+    style={Object {}}
+  >
+    <div>
+      <input
+        aria-autocomplete="list"
+        aria-expanded={true}
+        autoComplete="off"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        role="combobox"
+        value=""
+      />
+    </div>
+  </div>
+</AutoComplete>
+`;
+
+exports[`[Component] AutoComplete [Case] Render without crashing 1`] = `
+<div
+  style={Object {}}
+>
+  <div>
+    <input
+      aria-autocomplete="list"
+      aria-expanded={false}
+      autoComplete="off"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      role="combobox"
+      value=""
+    />
+  </div>
+</div>
+`;

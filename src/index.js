@@ -4,7 +4,6 @@ import store from './common/store'
 import Root from './common/hocs/Root'
 import * as serviceWorker from './serviceWorker'
 
-console.log('start', store)
 ReactDOM.render(
   <React.StrictMode>
     <Root {...store} />

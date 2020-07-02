@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Header [Case] Render with dark theme props 1`] = `
+<styled.header>
+  <div
+    className="header-inner"
+  >
+    <img
+      alt="header-image"
+      className="header-image"
+      src="airbnb.svg"
+    />
+    <div
+      className="header-tab"
+    >
+      <div
+        className="theme-switch"
+      >
+        <ReactSwitch
+          activeBoxShadow="0 0 2px 3px #3bf"
+          boxShadow={null}
+          checked={true}
+          checkedIcon={
+            <img
+              alt="nigh-icon"
+              className="theme-icon"
+              src="night-icon.svg"
+            />
+          }
+          disabled={false}
+          height={28}
+          offColor="#555555"
+          offHandleColor="#fff"
+          onChange={[Function]}
+          onColor="#555555"
+          onHandleColor="#fff"
+          uncheckedIcon={
+            <img
+              alt="sunny-icon"
+              className="theme-icon"
+              src="sunny-icon.svg"
+            />
+          }
+          width={56}
+        />
+      </div>
+      <nav
+        className="topnav"
+      >
+        <a
+          className="header-nav-item"
+          href="https://www.linkedin.com/in/d%C6%B0%C6%A1ng-t%E1%BA%A5n-h%C3%B9ng-633132131/"
+          key="https://www.linkedin.com/in/d%C6%B0%C6%A1ng-t%E1%BA%A5n-h%C3%B9ng-633132131/"
+          title="Linkedin"
+        >
+          Linkedin
+        </a>
+        <a
+          className="header-nav-item"
+          href="https://github.com/zrg-team"
+          key="https://github.com/zrg-team"
+          title="Github"
+        >
+          Github
+        </a>
+        <a
+          className="header-nav-item"
+          href="https://github.com/zrg-team/some-demo"
+          key="https://github.com/zrg-team/some-demo"
+          title="Source Code"
+        >
+          Source Code
+        </a>
+        <a
+          className="header-nav-item"
+          href="https://zrg-team.github.io/store/"
+          key="https://zrg-team.github.io/store/"
+          title="Profile"
+        >
+          Profile
+        </a>
+        <a
+          className="icon"
+          onClick={[Function]}
+        >
+          <FontAwesomeIcon
+            border={false}
+            className="menu-icon"
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  448,
+                  512,
+                  Array [],
+                  "f0c9",
+                  "M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z",
+                ],
+                "iconName": "bars",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            swapOpacity={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </a>
+      </nav>
+    </div>
+  </div>
+</styled.header>
+`;
+
+exports[`[Component] Header [Case] Render with light theme props 1`] = `
+<styled.header>
+  <div
+    className="header-inner"
+  >
+    <img
+      alt="header-image"
+      className="header-image"
+      src="airbnb.svg"
+    />
+    <div
+      className="header-tab"
+    >
+      <div
+        className="theme-switch"
+      >
+        <ReactSwitch
+          activeBoxShadow="0 0 2px 3px #3bf"
+          boxShadow={null}
+          checked={false}
+          checkedIcon={
+            <img
+              alt="nigh-icon"
+              className="theme-icon"
+              src="night-icon.svg"
+            />
+          }
+          disabled={false}
+          height={28}
+          offColor="#555555"
+          offHandleColor="#fff"
+          onChange={[Function]}
+          onColor="#555555"
+          onHandleColor="#fff"
+          uncheckedIcon={
+            <img
+              alt="sunny-icon"
+              className="theme-icon"
+              src="sunny-icon.svg"
+            />
+          }
+          width={56}
+        />
+      </div>
+      <nav
+        className="topnav"
+      >
+        <a
+          className="header-nav-item"
+          href="https://www.linkedin.com/in/d%C6%B0%C6%A1ng-t%E1%BA%A5n-h%C3%B9ng-633132131/"
+          key="https://www.linkedin.com/in/d%C6%B0%C6%A1ng-t%E1%BA%A5n-h%C3%B9ng-633132131/"
+          title="Linkedin"
+        >
+          Linkedin
+        </a>
+        <a
+          className="header-nav-item"
+          href="https://github.com/zrg-team"
+          key="https://github.com/zrg-team"
+          title="Github"
+        >
+          Github
+        </a>
+        <a
+          className="header-nav-item"
+          href="https://github.com/zrg-team/some-demo"
+          key="https://github.com/zrg-team/some-demo"
+          title="Source Code"
+        >
+          Source Code
+        </a>
+        <a
+          className="header-nav-item"
+          href="https://zrg-team.github.io/store/"
+          key="https://zrg-team.github.io/store/"
+          title="Profile"
+        >
+          Profile
+        </a>
+        <a
+          className="icon"
+          onClick={[Function]}
+        >
+          <FontAwesomeIcon
+            border={false}
+            className="menu-icon"
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  448,
+                  512,
+                  Array [],
+                  "f0c9",
+                  "M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z",
+                ],
+                "iconName": "bars",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            swapOpacity={false}
+            symbol={false}
+            title=""
+            transform={null}
+          />
+        </a>
+      </nav>
+    </div>
+  </div>
+</styled.header>
+`;

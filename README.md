@@ -16,37 +16,44 @@ npm start
 ```
 
 ## More
-+ React Native application for spiderum community: 
-https://github.com/zrg-team/rn_spiderum
+### React Native application for spiderum community: 
 
-Chapter 1:
-https://spiderum.com/bai-dang/Toi-da-viet-ung-dung-spiderum-cua-minh-nhu-the-nao-phan-1-jvi
+ + source: https://github.com/zrg-team/rn_spiderum
 
-Chapter 2:
-https://spiderum.com/bai-dang/Toi-da-viet-ung-dung-spiderum-cua-minh-nhu-the-nao-phan-cuoi-l3z
+ + Chapter 1: https://spiderum.com/bai-dang/Toi-da-viet-ung-dung-spiderum-cua-minh-nhu-the-nao-phan-1-jvi
 
-+ Flutter application:
-https://github.com/zrg-team/flutter_redux
+ + Chapter 2: https://spiderum.com/bai-dang/Toi-da-viet-ung-dung-spiderum-cua-minh-nhu-the-nao-phan-cuoi-l3z
 
-+ A complete Solution for job-freelancer website:
-https://github.com/zrg-team/web_demo_server
-https://github.com/zrg-team/demo_admin
-https://github.com/zrg-team/demo_frontend
-https://github.com/zrg-team/node_express_respository
+### Flutter application:
 
-My customer website: https://stagingjob.digitechglobalco.com/
+ + source: https://github.com/zrg-team/flutter_redux
+ 
+### A Ethereum contract manager:
+ + source : https://github.com/zrg-team/ethereum-contract-manager
 
-+ A Ethereum contract manager:
-https://github.com/zrg-team/ethereum-contract-manager
+### A end-to-end crypted chat application
+ + source : https://github.com/zrg-team/quick-chat
 
-+ A end-to-end crypted chat application
-https://github.com/zrg-team/quick-chat
+### A code editor and test online:
+ + source : https://github.com/zrg-team/awesome-me
 
-+ A code editor and test online:
-https://github.com/zrg-team/awesome-me
+### A complete Solution for job-freelancer website:
 
-+ Simple website sell 2nd games:
-https://github.com/zrg-team/games2nd
+ + source main: https://github.com/zrg-team/web_demo_server
 
-And more at: https://github.com/zrg-team
+ + source admin: https://github.com/zrg-team/demo_admin
+
+ + source front: https://github.com/zrg-team/demo_frontend
+
+ + source api: https://github.com/zrg-team/node_express_respository
+
+ + My customer website: https://stagingjob.digitechglobalco.com/
+
+### Simple website sell 2nd games:
+ + source : https://github.com/zrg-team/games2nd
+
+### Phaser game:
+ + source : https://github.com/zrg-team/card_game
+
+## And more at: https://github.com/zrg-team
 

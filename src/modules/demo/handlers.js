@@ -9,13 +9,15 @@ const MOCK_RESULT = [
   { id: 'a8', label: 'Can Tho' },
   { id: 'a9', label: 'My Tho' },
   { id: 'a10', label: 'Tay Nguyen' },
-  { id: 'a11', label: 'Binh Phuoc' }
+  { id: 'a11', label: 'Binh Phuoc' },
+  { id: 'a12', label: 'Binh Duong' },
+  { id: 'a13', label: 'Son La' },
+  { id: 'a14', label: 'Lao Cai' }
 ]
 
 function fakeFetch (input) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      console.log('input', input)
       resolve(MOCK_RESULT.filter(item => item.label.toLowerCase().includes(`${input}`.trim().toLowerCase())))
     }, 200)
   })
