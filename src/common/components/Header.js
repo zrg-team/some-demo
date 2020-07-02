@@ -110,12 +110,12 @@ const MENU = [
     href: 'https://github.com/zrg-team'
   },
   {
-    title: 'Signup',
-    href: '/signup'
+    title: 'Source Code',
+    href: 'https://github.com/zrg-team/some-demo'
   },
   {
-    title: 'Log in',
-    href: '/login'
+    title: 'Profile',
+    href: 'https://zrg-team.github.io/store/'
   }
 ]
 function Header ({ theme, setTheme }) {
@@ -169,7 +169,7 @@ function Header ({ theme, setTheme }) {
                   <a
                     className='header-nav-item'
                     key={item.href}
-                    href={item.title}
+                    href={item.href}
                     title={item.title}
                   >
                     {item.title}

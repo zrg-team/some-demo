@@ -84,7 +84,7 @@ class AutoComplete extends PureComponent {
     const {
       onChange,
       forceAsync,
-      timeoutTyping = 600,
+      timeoutTyping = 800,
       onInputStopped,
       getAsyncItems,
       getAsyncItemsError
