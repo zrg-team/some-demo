@@ -140,7 +140,7 @@ function Header ({ theme, setTheme }) {
   return (
     <HeaderContainer>
       <div className='header-inner'>
-        <img src={logo} className='header-image' alt='header-image' />
+        <img src={logo} className='header-image' alt='header-logo' />
         <div className='header-tab'>
           <div
             ref={switchRef}

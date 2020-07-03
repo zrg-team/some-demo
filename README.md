@@ -29,13 +29,16 @@ npm start
  + source: https://github.com/zrg-team/flutter_redux
  
 ### A Ethereum contract manager:
- + source : https://github.com/zrg-team/ethereum-contract-manager
+ + source: https://github.com/zrg-team/ethereum-contract-manager
+ + demo: https://zrg-team.github.io/ethereum-contract-manager/
 
 ### A end-to-end crypted chat application
- + source : https://github.com/zrg-team/quick-chat
+ + source: https://github.com/zrg-team/quick-chat
+ + demo: https://zrg-team.github.io/quick-chat/#/
 
 ### A code editor and test online:
- + source : https://github.com/zrg-team/awesome-me
+ + source: https://github.com/zrg-team/awesome-me
+ + demo: https://zrg-team.github.io/awesome-me
 
 ### A complete Solution for job-freelancer website:
 
@@ -50,10 +53,10 @@ npm start
  + My customer website: https://stagingjob.digitechglobalco.com/
 
 ### Simple website sell 2nd games:
- + source : https://github.com/zrg-team/games2nd
+ + source: https://github.com/zrg-team/games2nd
 
 ### Phaser game:
- + source : https://github.com/zrg-team/card_game
+ + source: https://github.com/zrg-team/card_game
 
 ## And more at: https://github.com/zrg-team
 

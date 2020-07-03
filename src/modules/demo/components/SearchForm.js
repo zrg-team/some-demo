@@ -117,7 +117,7 @@ function SearchForm ({ fetchData, theme }) {
         {item.label}
       </div>
     )
-  }, [theme])
+  })
   const LoadingComponent = useMemo(() => (
     <div className='loader-container'>
       <div className='loader' />
