@@ -1,7 +1,5 @@
 ## Features
 + Feature 03 commit 1
-+ Feature 01 commit 1
-+ Feature 01 commit 2
 
 ## About
 Simple react js demo
