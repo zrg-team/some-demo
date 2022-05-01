@@ -1,5 +1,6 @@
 ## Features
 + Feature 09 commit 1
++ Feature 08 commit 1
 + Feature 07 commit 1
 + Feature 06 commit 1
 + Feature 05 commit 1
